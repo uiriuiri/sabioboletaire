@@ -7,7 +7,7 @@ import argparse
 import textwrap
 
 # Directorio donde se encuentra el programa
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).resolve().parent
 
 QUOTES_FILE = BASE_DIR / "quotes.txt"
 SABIO_FILE = BASE_DIR / "sabio.txt"
